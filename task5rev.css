@@ -1,0 +1,113 @@
+.container {
+    height: 80vh;
+    border-radius: 40px 40px 0 0;
+
+    background:
+        linear-gradient(hsl(264, 100%, 40%), rgba(0, 0, 0, 0.8)),
+        url("bgimage.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .course {
+    font-size: larger;
+}
+
+.container .navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .list2 {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.container .text1 {
+    margin: 100px 0 75px 0;
+    font-size: xx-large;
+    font-weight: 4000;
+    text-align: center;
+
+}
+
+.text1 .journey {
+    font-size: xx-small;
+    margin: 30px 50px 0 100px;
+}
+
+.text2 .paragraph1 {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.text2 .paragraph2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+span {
+    padding: 120px;
+    font-size: larger;
+    font-weight: 450;
+}
+
+button {
+    background-color: #ef7474;
+    margin: 0 50px 0 120px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 140px;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.container2 div {
+    background-color: #f1f1f1;
+
+
+}
+
+.profile {
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile p {
+    text-align: right;
+}
+
+.last {
+    text-align: center;
+}

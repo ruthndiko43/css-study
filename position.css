@@ -1,0 +1,41 @@
+.relative {
+    position: relative;   
+  background-color: hsl(180, 100%, 50%);
+    height: 400px;
+}
+
+
+.pic1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.pic2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.pic3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.pic4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+.pic5 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
